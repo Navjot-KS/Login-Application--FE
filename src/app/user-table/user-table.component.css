@@ -1,0 +1,58 @@
+thead h3 , tfoot{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    }
+    
+    table {
+        margin:1rem;
+        border: 2px solid black;
+        padding: 2rem;
+        width: 50%;
+    }
+    
+    tfoot{
+        border-top: 2px solid black;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+    
+    tfoot  a {
+        font-size: 1rem;
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        border-radius: 3px;
+        padding: 10px;
+    }
+    
+    tfoot  a:hover {
+        text-decoration: underline;
+        color: gray;
+        padding: 10px 20px;
+    }
+    
+    tr{
+        display : flex;
+        gap:1rem;
+    }
+    
+    td , th{
+        text-align:center;
+        width: 10rem;
+        font-size: 1.2rem;
+    }
+    
+    #HeaderRow td{
+        font-size: 1.5rem;
+    }
+    
+    th {
+        padding : 1rem;
+    }
+    
+    tbody td{
+        font-weight: bold;
+        padding : 1rem;
+    }

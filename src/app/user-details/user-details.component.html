@@ -1,0 +1,14 @@
+<h1>Welcome , {{userDetails?.name}}</h1>
+<details  class="unselectable">
+    <summary>
+        <h2>User #{{userDetails?.id}}</h2>
+    </summary>
+    <div class="card">
+        <span>{{userDetails?.name}}</span>
+        <br>
+        <span>{{userDetails?.email}}</span>
+    </div>
+</details>
+<hr>
+<a routerLink="/users" >Back</a >
+<button (click)="deleteUser(userDetails.id)">Delete</button>

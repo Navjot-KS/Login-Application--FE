@@ -1,0 +1,19 @@
+#card {
+    background-color: hsla(0, 0%, 70%, 0.9);
+    width:10rem;
+    padding:2rem;
+    margin:1.5rem;
+    border-radius: 5px;
+    height:15rem;
+    justify-content: center;   
+}
+
+#form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+#form button {
+    align-self: center;
+}

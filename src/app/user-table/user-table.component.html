@@ -1,0 +1,31 @@
+<div>
+    <table>
+        <thead>
+            <h3>All Users[ {{ usersCount }} ]</h3>
+        </thead>
+        <hr align="center" width="50%">
+        <tr id="HeaderRow">
+            <th>Serial No.</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tbody>
+            <tr *ngFor="let user of userData">
+                <td>
+                    <a (click)="navigateToDetailsPage(user.id)">{{ user.id }}</a>
+                </td>
+
+                <td>
+                    <span>{{ user.name }}</span>
+                </td>
+                <td>
+                    <span>{{ user.email }}</span>
+                </td>
+            </tr>
+        </tbody>
+        <hr align="center" width="50%">
+        <tfoot><a routerLink="">Back</a></tfoot>
+
+
+    </table>
+</div>

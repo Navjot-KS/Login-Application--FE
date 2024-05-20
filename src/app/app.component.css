@@ -1,0 +1,13 @@
+.header {
+    min-height: 20%;
+    background-color: saddlebrown;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.content{
+    display: grid;
+    justify-content: center;
+}
